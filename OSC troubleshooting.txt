@@ -1,0 +1,26 @@
+If you cannot connect ping to OSC
+
+1. check IP address and IP subnet of OSC & PC
+2. Turn Firewall OFF on OSC
+3. select remote protocol as LXI
+4. check resource string in osc.connect (change VICP to TICP0 and vice-versa and check if it works. Worked once! Don't know why!)
+5. Check if ActiveDSO or VICP Passport is installed (if not, both can be installed from LeCroy website) 
+
+
+To get the full trigger waveform, set RealTime Sampling mode, Set Maximum Memory and Lock to Trigger Position
+
+If there is some issues qith the execution of OSC, I would suggest to re-initialize the scope settings and then try again.
+
+Please proceed as follows:
+- Save your current settings in a setup file via "File - Save Setup".
+- Close the oscilloscope application via "File - Exit".
+- Open a Windows Explorer and delete the file "D:\Setups\CurrentPnl.lss".
+- Close the Windows Explorer and restart the oscilloscope application with a double click on the shortcut "Start DSO".
+- You will notice an error message that the setup file can't be found, this message can be ignored. The deleted file will be restored from the system after some minutes.
+
+
+
+Note: 
+I recommend not to zoom into signals by changing the horizontal or vertical settings or pinching to zoom after an acquisition.
+When zooming is required, a dedicated Zoom function should be used. In case you then want to save/fetch just the zoomed part of the signal, you simply need to change the source in your code to the Zoom function.
+When you zoom by changing the horizontal or vertical settings or pinch to zoom, Fetch Waveform only gives you the part of the trace which is currently visible.
