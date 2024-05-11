@@ -43,7 +43,7 @@ Run the `GUI_v3.0.py` script.
 2. Change all the parameters as required from GUI and hit "START" button
 3. The LabNb is saved on the OSC with an ID which will be displayed on the GUI Console.
 
-! [GUI 3.0](https://github.com/vedantdalvi7/LeCroy-Oscilloscope-Automation/blob/main/images/GUI_v3.0.png?raw=true)
+! [GUI 3.0] (/assets/images/GUI_v3.0.png)
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
