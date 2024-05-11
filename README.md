@@ -43,7 +43,7 @@ Run the `GUI_v3.0.py` script.
 2. Change all the parameters as required from GUI and hit "START" button
 3. The LabNb is saved on the OSC with an ID which will be displayed on the GUI Console.
 
-[GUI 3.0](/images/GUI_v3.0.png)
+![GUI 3.0](/images/GUI_v3.0.png)
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
