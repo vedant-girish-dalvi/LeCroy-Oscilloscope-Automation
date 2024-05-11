@@ -43,6 +43,8 @@ Run the "GUI_v3.0.py" script.
 2. Change all the parameters as required from GUI and hit "START" button
 3. The LabNb is saved on the OSC with an ID which will be displayed on the GUI Console.
 
+https://github.com/vedantdalvi7/LeCroy-Oscilloscope-Automation/blob/main/images/GUI_v3.0.png?raw=true
+
 ------------------------------------------------------------------------------------------------------------------------------------------
 
 **TO RUN CONFIG FILE AUTOMATION SCRIPT: You need the "TRIGGER_SEQ.py" script to Trigger the OSC in SINGLE or NORMAL mode**
